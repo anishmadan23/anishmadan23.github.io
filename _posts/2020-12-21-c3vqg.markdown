@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "C3VQG: Category Consistent Cyclic Visual Question Generation"
+date:   2020-12-21 22:21:59 +00:00
+image: /images/c3vqg.png
+categories: research
+author: "Anish Madan"
+authors: "Sarthak Bhagat*, <strong>Anish Madan*</strong>, Shagun Uppal*, Yi Yu, Rajiv Ratn Shah"
+venue: "ACM Multimedia Asia"
+arxiv: https://arxiv.org/abs/2005.07771
+code: https://github.com/sarthak268/c3vqg-official
+slides: https://drive.google.com/file/d/1x20WD-u9H8s3JTSLJFXO1PCFftX91KYV/view 
+youtube: https://www.youtube.com/watch?v=SuTzKcIRGuw 
+---

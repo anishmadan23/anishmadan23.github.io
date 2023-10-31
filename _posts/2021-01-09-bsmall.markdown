@@ -1,0 +1,14 @@
+---
+layout: post
+title: "B-SMALL: A Bayesian Neural Network approach to Sparse Model-Agnostic Meta-Learning"
+date:   2021-01-09 22:21:59 +00:00
+image: /images/bsmall.png
+categories: research
+author: "Anish Madan"
+authors: <strong>Anish Madan</strong>, Ranjitha Prasad"
+venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+arxiv: https://arxiv.org/abs/2101.00203
+code: https://github.com/anishmadan23/B-SMALL
+slides: https://docs.google.com/presentation/d/1hc5fCEDneDgpUYg7P4uAZ_OQZ0vB2sUeYRJWGGV9_TM/edit?usp=sharing
+youtube: https://www.youtube.com/watch?v=SuTzKcIRGuw 
+---

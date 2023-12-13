@@ -7,5 +7,5 @@ categories: research
 author: "Anish Madan"
 authors: <strong>Anish Madan*</strong>, Neehar Peri, Shu Kong, Deva Ramanan"
 venue: "Under Review"
-pdf: /pdfs/vlm_few_shot_cvpr2024_submission.pdf
+pdf: /pdfs/vlm_few_shot_current_submission.pdf
 ---

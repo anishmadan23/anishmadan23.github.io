@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SLI-pSp: Injecting Multi-Scale Spatial Layout in pSp"
-date:   2022-10-18 22:21:59 +00:00
+date:   2023-10-18 22:21:59 +00:00
 image: /images/sli_psp_tb.png
 categories: research
 author: "Anish Madan"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "REGroup: Rank-aggregating Ensemble of Generative Classifiers for Robust Predictions"
-date:   2021-10-18 22:21:59 +00:00
+date:   2022-10-18 22:21:59 +00:00
 image: /images/regroup.png
 categories: research
 author: "Anish Madan"

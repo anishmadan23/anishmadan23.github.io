@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Revisiting Few-Shot Object Detection with Vision-Language Models"
+date:   2023-12-12 22:21:59 +00:00
+image: /images/vlm_fsod_teaser.png
+categories: research
+author: "Anish Madan"
+authors: <strong>Anish Madan*</strong>, Neehar Peri, Shu Kong, Deva Ramanan"
+venue: "Under Review"
+pdf: /pdfs/vlm_few_shot_cvpr2024_submission.pdf
+---

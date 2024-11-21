@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "Revisiting Few-Shot Object Detection with Vision-Language Models"
-date:   2023-12-12 22:21:59 +00:00
+date:   2024-10-14 22:21:59 +00:00
 image: /images/vlm_fsod_teaser.png
 categories: research
 author: "Anish Madan"
 authors: <strong>Anish Madan*</strong>, Neehar Peri, Shu Kong, Deva Ramanan"
-venue: "Under Review"
+venue: "Neural Information Processing Systems, ***Datasets and Benchmarks Track*** (NeurIPS), 2024"
 # pdf: /pdfs/vlm_few_shot_current_submission.pdf
 arxiv: https://arxiv.org/abs/2312.14494
+code: https://github.com/anishmadan23/foundational_fsod 
 ---

@@ -1,0 +1,12 @@
+---
+layout: post
+title: "SMORE: Simultaneous Map and Object Reconstruction"
+date: 2025-03-28 22:21:59 +00:00
+image: /images/regroup.png
+categories: research
+author: "Anish Madan"
+authors: Nathaniel Chodosh*, <strong>Anish Madan*</strong>, Simon Lucey, Deva Ramanan
+venue: International Conference on 3D Vision (3DV)
+# pdf: /pdfs/vlm_few_shot_current_submission.pdf
+arxiv: https://arxiv.org/abs/2406.13896
+---

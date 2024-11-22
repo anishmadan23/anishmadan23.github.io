@@ -6,7 +6,7 @@ image: /images/regroup.png
 categories: research
 author: "Anish Madan"
 authors: Lokender Tiwari, <strong>Anish Madan</strong>, Saket Anand, Subhashis Banerjee
-venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (<strong>WACV</strong>), <strong>2022</strong>"
 arxiv: https://arxiv.org/abs/2006.10679
 code: https://github.com/lokender/REGroup
 youtube: https://youtu.be/hwKjcc1IJqw  

@@ -34,20 +34,19 @@
               <h1>
                 Anish Madan
               </h1>
-              <p>I'm a Research Associate at the <a href="https://www.ri.cmu.edu/">Robotics Institute, Carnegie Mellon University</a>,  advised by <a href="https://www.cs.cmu.edu/~deva/">Dr. Deva Ramanan</a>. Previously, I did my Masters in Robotics at CMU with Prof. Deva Ramanan as well. I'm currently working on large scale 4D reconstruction(3D geometry + rigid body dynamics)
+              <p>I'm a Research Associate at the <a href="https://www.ri.cmu.edu/">Robotics Institute, Carnegie Mellon University</a>. I graduated with my Masters in Robotics at CMU, advised by <a href="https://www.cs.cmu.edu/~deva/">Prof. Deva Ramanan</a>. I'm interested in <strong>building consistent and physically accurate models of the world for training autonomous agents</strong>. 
               </p>
               <p>
-                Previously I was an Associate ML Scientist at <a href="https://www.wadhwaniai.org/">Wadhwani AI</a>, working on 
-                the <a href="https://www.wadhwaniai.org/work/maternal-newborn-child-health/"> Baby Anthropometry project</a> (under the guidance of <a href="https://makarandtapaswi.github.io/">Dr. Makarand Tapaswi</a>. 
-                The project's goal is to estimate weight of newborns from a monocular video, in order to provide timely intervention via healthcare providers for low-birth weight babies. 
+                Previously I was an Associate ML Scientist at <a href="https://www.wadhwaniai.org/">Wadhwani AI</a>, where I worked on  
+                the <a href="https://www.wadhwaniai.org/work/maternal-newborn-child-health/"> Baby Anthropometry project</a> led by <a href="https://makarandtapaswi.github.io/">Dr. Makarand Tapaswi</a>. 
+                The project aimed to estimate newborn weight from monocular video to enable timely interventions for low-birth-weight babies.
               </p>
               <p>
-                Prior to joining the industry, I graduated from <a href="https://www.iiitd.ac.in/">IIIT-Delhi</a>.  with my Bachelor's in Computer Science and Applied Mathematics. I worked on defending against adversarial attacks as part of my Bachelor's Thesis, advised by
-                <a href="http://faculty.iiitd.ac.in/~anands/">Dr. Saket Anand</a>. I also had the fortune of working with <a href="http://faculty.iiitd.ac.in/~ojaswa/">Dr. Ojaswa Sharma</a>, 
+                Prior to joining the industry, I graduated from <a href="https://www.iiitd.ac.in/">IIIT-Delhi</a>.  with my Bachelor's in Computer Science and Applied Mathematics, advised by <a href="http://faculty.iiitd.ac.in/~anands/">Dr. Saket Anand</a> . I also had the fortune of working with <a href="http://faculty.iiitd.ac.in/~ojaswa/">Dr. Ojaswa Sharma</a>, 
                 <a href="https://sites.google.com/site/ranjithap/home">Dr.Ranjitha Prasad</a>, <a href="https://faculty.iiitd.ac.in/~rajivratn/profile.html">Dr. Rajiv Ratn Shah</a> at IIIT-Delhi. 
               </p>
               <p>
-                I am actively looking for job or research opportunities starting Aug 2024. Please reach out if you think I might be a good fit.
+                I am looking for PhD opportunities starting <strong>Fall 2025</strong>. Please reach out if you think I would be a good fit.
               </p>
               <p style="text-align:center">
                 <!-- <a target="_blank" href="https://mailhide.io/e/SGdnycsc"> Email</a> &nbsp;/&nbsp; -->
@@ -89,8 +88,13 @@
               {{post.authors}}
 
               <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <!-- <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} -->
+              <em>{{post.venue}}</em>
               <br>
+              {% if post.venue2 %}
+              <em>{{post.venue2}}</em>
+              <br>
+              {% endif %}
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
@@ -102,6 +106,9 @@
               {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.competition %}
+              <a href="{{post.competition}}">competition</a> /
               {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /

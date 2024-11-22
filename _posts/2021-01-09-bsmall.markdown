@@ -6,7 +6,7 @@ image: /images/bsmall.png
 categories: research
 author: "Anish Madan"
 authors: <strong>Anish Madan</strong>, Ranjitha Prasad"
-venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>), <strong>2021</strong>"
 arxiv: https://arxiv.org/abs/2101.00203
 code: https://github.com/anishmadan23/B-SMALL
 slides: https://docs.google.com/presentation/d/1hc5fCEDneDgpUYg7P4uAZ_OQZ0vB2sUeYRJWGGV9_TM/edit?usp=sharing

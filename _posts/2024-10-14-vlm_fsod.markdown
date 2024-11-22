@@ -5,9 +5,13 @@ date:   2024-10-14 22:21:59 +00:00
 image: /images/vlm_fsod_teaser.png
 categories: research
 author: "Anish Madan"
-authors: <strong>Anish Madan*</strong>, Neehar Peri, Shu Kong, Deva Ramanan
-venue: Neural Information Processing Systems, Datasets and Benchmarks Track (NeurIPS)
+authors: <strong>Anish Madan*</strong>, Neehar Peri*, Shu Kong, Deva Ramanan
+venue: "Neural Information Processing Systems, Datasets and Benchmarks Track (<strong>NeurIPS</strong>), <strong>2024</strong> 
+        "
+venue2: EVAL-FoMo Workshop, <strong>ECCV 2024</strong>
 # pdf: /pdfs/vlm_few_shot_current_submission.pdf
 arxiv: https://arxiv.org/abs/2312.14494
 code: https://github.com/anishmadan23/foundational_fsod 
+competition: https://eval.ai/web/challenges/challenge-page/2270/overview 
+poster: /pdfs/Final Neurips 2024 Poster.pdf
 ---

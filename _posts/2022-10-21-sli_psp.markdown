@@ -6,7 +6,7 @@ image: /images/sli_psp_tb.png
 categories: research
 author: "Anish Madan"
 authors: Aradhya Neeraj Mathur*, <strong>Anish Madan*</strong>, Ojaswa Sharma
-venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (<strong>WACV</strong>), <strong>2023</strong>"
 arxiv : https://openaccess.thecvf.com/content/WACV2023/html/Mathur_SLI-pSp_Injecting_Multi-Scale_Spatial_Layout_in_pSp_WACV_2023_paper.html 
 poster: /pdfs/WACV 2023 Poster SLI PSP.pdf
 ---

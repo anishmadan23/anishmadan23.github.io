@@ -1,11 +1,28 @@
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script type="text/javascript">google.load("jquery", "1.3.2");</script>
+<script src="./static/js/jquery.min.js"></script>
+<script defer src="./static/js/fontawesome.all.min.js"></script>
+<script src="./static/js/bulma-carousel.min.js"></script>
+<script src="./static/js/bulma-slider.min.js"></script>
+<script src="./static/js/index.js"></script>
+
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="./resources/style.css" media="screen"/>
+<link href="./static/css/sans.css" rel="stylesheet">
 
+<link rel="stylesheet" href="./static/css/bulma.min.css">
+<link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+<link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+<link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="./static/css/index.css">
+<link rel="stylesheet" href="./static/css/selection-panel.css">
+<link rel="icon" href="./static/images/favicon.svg">
 <html lang="en">
+
 <head>
+  <meta charset="utf-8">
 	<title>SMORE: Simultaneous Map and Object REconstruction</title>
     <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/
         if you update and want to force Facebook to re-scrape. -->
@@ -29,25 +46,85 @@
     -->
 </head>
 
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <!-- Center-align the title and adjust spacing -->
+          <h1 class="title is-1 publication-title" style="text-align: center; margin: 0 auto;">
+            SMORE: 
+            <img src="resources/new_resources/smore.png" alt="S'more emoji" style="width: 1em; height: 1em; vertical-align: middle;"> 
+            Simultaneous Map and Object REconstruction
+          </h1>
+          <h3 class="subtitle is-3 publication-subtitle" style="text-align: center; margin: 0 auto; color: #5c5454; font-family: 'Verdana', sans-serif;">
+            3DV 2025
+          </h3>
+          <!-- Center-align author details -->
+          <div class="is-size-5 publication-authors" style="text-align: center;">
+            <span class="author-block"><a href="https://nchodosh.github.io/">Nathaniel Chodosh*</a><sup>1,3</sup>,</span>
+            <span class="author-block"><a href="https://anishmadan23.github.io/">Anish Madan*</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://researchers.adelaide.edu.au/profile/simon.lucey">Simon Lucey</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://www.cs.cmu.edu/~deva/">Deva Ramanan</a><sup>1</sup></span>
+          </div>
+          <!-- Center-align institution details -->
+          <div class="is-size-5 publication-authors" style="text-align: center;">
+            <span class="author-block"><sup>1</sup>Carnegie Mellon University,</span>
+            <span class="author-block"><sup>2</sup>University of Adelaide,</span>
+            <span class="author-block"><sup>3</sup>Villanova University</span>
+          </div>
+
+          <!-- Center-align the buttons -->
+          <div class="column has-text-centered" style="margin-top: 1em;">
+            <div class="publication-links">
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/pdf/2406.13896" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <span class="link-block">
+                <!-- <a href="https://arxiv.org/abs/2406.13896" class="external-link button is-normal is-rounded is-dark" target="_blank"> -->
+                <a href="#" class="external-link button is-normal is-rounded is-dark" target="_blank">
+
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv (Coming Soon)</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (Coming Soon)</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <style>
   .dark-grey-text {
     color: #555555; /* Dark grey */
   }
 </style>
 
+<!-- <style>
+  body {
+    background-color: #f0f0f0; /* Replace with your desired color */
+  }
+</style> -->
 <body>
 <div class="container">
-  <div class="title">
-    <b>SMORE</b><img src="resources/new_resources/smore.png" alt="S'more emoji" style="width: 1em; height: 1em; vertical-align: middle;"> <br><b>S</b>imultaneous <b>M</b>ap and <b>O</b>bject <b>RE</b>construction
-    </div>
-    <br>
-    <br>
-    <div class="author">
-        Anonymous Submission
-    </div>
-    <br>
-    <br>
-    <br>
     <!--<div class="links"><a href="">[Paper]</a></div> 
     <div class="links"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">[Video]</a></div>
     <div class="links"><a href="https://github.com/jasonyzhang/webpage-template">[Code]</a></div>-->
@@ -55,7 +132,7 @@
     <div style="display: flex; justify-content: space-around; align-items: center; text-align: center;">
       <!-- First Image -->
       <div style="background-color: #fff; padding: 10px; width: 37%;">
-        <video style="width: 100%; height: auto;" controls autoplay loop muted>
+        <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
           <source src="resources/new_resources/teaser_input.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
@@ -68,7 +145,7 @@
     
       <!-- Third Image -->
       <div style="background-color: #fff; padding: 10px; width: 37%;">
-        <video style="width: 100%; height: auto;" controls autoplay loop muted>
+        <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
           <source src="resources/new_resources/teaser_output.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
@@ -84,15 +161,20 @@
       TL;DR:  We fit a compositional surface model to autonomous vehicle LiDAR sequences, and show vastly superior geometry compared to SOTA NeRF methods.
     </i>
     <hr>
-
-    <h1>Abstract</h1>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+    <h2 class="title is-3">Abstract</h2>
   <p class="dark-grey-text">
+    <div style="align-items: center; text-align: center"></div>
     We present a method for dynamic surface reconstruction of large-scale urban scenes from LiDAR. Depth-based reconstructions tend to focus on small-scale objects or large-scale SLAM reconstructions that treat moving objects as outliers. We take a holistic perspective and optimize a compositional model of a dynamic scene that decomposes the world into rigidly-moving objects and the background. To achieve this, we take inspiration from recent novel view synthesis methods and frame the reconstruction problem as a global optimization over neural surfaces, ego poses, and object poses, which minimizes the error between composed spacetime surfaces and input LiDAR scans. In contrast to view synthesis methods, which typically minimize 2D errors with gradient descent, we minimize a 3D point-to-surface error by coordinate descent, which we decompose into registration and surface reconstruction steps. Each step can be handled well by off-the-shelf methods without any re-training. We analyze the surface reconstruction step for rolling-shutter LiDARs, and show that deskewing operations common in continuous time SLAM can be applied to dynamic objects as well, improving results over prior art by 10X. Beyond pursuing dynamic reconstruction as a goal in and of itself, we propose that such a system can be used to auto-label partially annotated sequences and produce ground truth annotation for hard-to-label problems such as depth completion and scene flow.
     </p>
-
+  </div></div>
   <br><br><hr><br>
 
-  <h1>Method Overview</h1>
+  <!-- <div class="columns is-centered has-text-centered"> -->
+    <!-- <div class="column is-four-fifths"> -->
+      <div class="container is-max-desktop is-centered">
+  <h2 class="title is-3">Method Overview</h2>
   <!-- <div class="teaser"; style="overflow: hidden;">
     <p style="float: left; width:10%;" > Input</p><img style="float: left; width: 85%;" src="./resources/new_resources/input_setup.png"/>
     <p style="float: left; width:40%;" > 1. For each object (including the background), align lidar points to a canonical object frame using estimated poses.</p><img style="float: left; width: 55%;" src="./resources/new_resources/method1.png"/><br>
@@ -102,15 +184,18 @@
   <div style="background-color: #fff; padding: 10px; width: 70%; margin: 0 0px;">
     <img src="resources/new_resources/method_overview.svg" alt="Center Image" style="width: 100%; height: auto;">
 </div>
+</div>
 
 
   <br><br>
-
-  <h1>Optimization over reconstruction and poses</h1>
+  <!-- <div class="container is-max-desktop is-centered"> -->
+  <h2 class="title is-3">Optimization over reconstruction and poses</h2>
+  <!-- <h1>Optimization over reconstruction and poses</h1> -->
   <div style="display: flex; justify-content: space-around; align-items: center;">
       <!-- First Column (Left) -->
       <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-right: 20px;">
-          <h3 style="margin-bottom: 0px;">Ground truth pose annotations</h3>
+          <!-- <h3 style="margin-bottom: 0px;">Ground truth pose annotations</h3> -->
+          <h3 class="title is-5" style="margin-bottom: 0px;">Ground truth pose annotations</h3>
           <div style="margin-bottom: 0px; background-color: #fff; padding: 10px; width: 350px;">
               <img src="resources/new_resources/ground_truth_pose_recon.png" alt="Ground Truth Pose Annotations" style="width: 100%; height: auto;">
           </div>
@@ -118,24 +203,27 @@
               <img src="resources/new_resources/9c5151b34911482f8155ab55c3f5d32f_0103_naive_cropped.png" alt="Ground Truth Pose Annotations" style="width: 100%; height: auto;">
           </div>
       </div>
-
+      <!-- </div> -->
+<!-- </div> -->
       <!-- Arrow -->
       <div style="text-align: center; margin: 0 20px;">
         <div style="margin-bottom: 0px;">
           <img src="resources/new_resources/arrow.png" alt="Arrow Image" style="width: 100px; height: auto;">
       </div>
-      <h3 style="margin-bottom: 0px;"><i>Optimization</i></h3>
+      <h3 class="title is-5" style="margin-bottom: 0px;">Optimization</h3>
+      <!-- <h3 style="margin-bottom: 0px;"><i>Optimization</i></h3> -->
       <div style="margin-top: 0px; background-color: #fff; padding: 10px; width: 300px;">
-        <video style="width: 100%; height: auto;" controls autoplay loop muted>
+        <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
           <source src="resources/new_resources/optim_process.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
-    </div>
-</div>
+      </div>
+      </div>
 
       <!-- Second Column (Right) -->
       <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-left: 20px;">
-          <h3 style="margin-bottom: 10px;">Optimized pose annotations</h3>
+          <!-- <h3 style="margin-bottom: 10px;">Optimized pose annotations</h3> -->
+          <h3 class="title is-5" style="margin-bottom: 0px;">Optimized pose annotation</h3>
           <div style="margin-bottom: 10px; background-color: #fff; padding: 10px; width: 350px;">
               <img src="resources/new_resources/smor_pose_reconstruction.png" alt="Optimized Pose Annotations" style="width: 100%; height: auto;">
           </div>
@@ -143,25 +231,30 @@
               <img src="resources/new_resources/9c5151b34911482f8155ab55c3f5d32f_0103_ours_cropped.png" alt="Optimized Pose Annotations" style="width: 100%; height: auto;">
           </div>
       </div>
-  </div>
+ 
+    </div>
 
-
+  <p class="dark-grey-text" style="align-items: center; text-align: center; margin-left: 20px">
+    <i>  We can improve over <b>ground-truth odometry</b> and <b>object annotations</b> provided in flagship datasets such as NuScenes!
+    </i>
+  </p>
+   
 <div>
-  <p class="dark-grey-text">
-  <i>  We can improve over <b>ground-truth odometry</b> and <b>object annotations</b> provided in flagship datasets such as NuScenes!
-  </i>
-</p>
+
+  
 </div>
 
 <br><br>
 
-<h1>What is a LiDAR Sweep?</h1>
+<!-- <h1>What is a LiDAR Sweep?</h1> -->
+<h2 class="title is-3">What is a LiDAR Sweep?</h2>
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <!-- First Column (Left) -->
   <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-right: 10px;">
-      <h3 style="margin-bottom: 0px;">Conventional Notion of LiDAR Sweep</h3>
+       <!-- <h3 style="margin-bottom: 0px;">Conventional Notion of LiDAR Sweep</h3> -->
+      <h3 class="title is-5" style="margin-bottom: 0px;">Conventional Notion of LiDAR Sweep</h3>
       <div style="margin-bottom: 0px; background-color: #fff; padding: 10px; width: 400px;">
-        <video style="width: 100%; height: auto;" controls autoplay loop muted>
+        <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
           <source src="resources/new_resources/lidar_sweep_naive.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
@@ -169,9 +262,10 @@
   </div>
 
   <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-left: 10px;">
-    <h3 style="margin-bottom: 0px;">What the sensor really measures</h3>
+    <!-- <h3 style="margin-bottom: 0px;">What the sensor really measures</h3> -->
+    <h3 class="title is-5" style="margin-bottom: 0px;">What the sensor really measures</h3>
     <div style="margin-bottom: 0px; background-color: #fff; padding: 10px; width: 400px;">
-      <video style="width: 100%; height: auto;" controls autoplay loop muted>
+      <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
         <source src="resources/new_resources/lidar_sweep_actual.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -187,14 +281,16 @@
 
 <br><br>
 
-<h2>Issues with conventional notion of LiDAR Sweeps</h2>
+<!-- <h2>Issues with conventional notion of LiDAR Sweeps</h2> -->
+<h2 class="title is-3">Issues with conventional notion of LiDAR Sweeps</h2>
 <div style="display: flex; justify-content: space-around; align-items: flex-start;">
   <!-- First Column (Left) -->
   <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-right: 10px;">
-      <h3 style="margin-bottom: 0px;">Dynamic Actor Motion Distortion</h3>
+      <!-- <h3 style="margin-bottom: 0px;">Dynamic Actor Motion Distortion</h3> -->
+      <h3 class="title is-5" style="margin-bottom: 0px;">Dynamic Actor Motion Distortions</h3>
       <div style="display: flex; justify-content: space-between;">
         <div style="background-color: #fff; padding: 10px; margin-right: 10px; width: 450px;">
-          <video style="width: 100%; height: auto;" controls autoplay loop muted>
+          <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
             <source src="resources/new_resources/problem1_sweep_cropped.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -212,7 +308,8 @@
 <div style="display: flex; justify-content: space-around; align-items: flex-start;">
   <!-- First Column (Left) -->
   <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-right: 10px;">
-      <h3 style="margin-bottom: 0px;">Incorrect Freespace</h3>
+      <!-- <h3 style="margin-bottom: 0px;">Incorrect Freespace</h3> -->
+      <h3 class="title is-5" style="margin-bottom: 0px;">Incorrect Freespace</h3>
       <div style="display: flex; justify-content: space-between;">
         <div style="background-color: #fff; padding: 10px; margin-right: 10px; width: 450px;">
             <img src="resources/new_resources/p2_updated_4.png" alt="Incorrrect freespace visual" style="width: 100%; height: auto;">
@@ -230,13 +327,15 @@
 
 <br><br>
 
-<h2>Solution: Optimize LiDAR slices over continuous time</h2>
+<!-- <h2>Solution: Optimize LiDAR slices over continuous time</h2> -->
+<h2 class="title is-3">Solution: Optimize LiDAR slices over continuous time</h2>
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <!-- First Column (Left) -->
   <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-right: 10px;">
-      <h3 style="margin-bottom: 5px;">Modelling LiDAR as a rolling shutter sensor</h3>
+      <!-- <h3 style="margin-bottom: 5px;">Modelling LiDAR as a rolling shutter sensor</h3> -->
+      <h3 class="title is-6" style="margin-bottom: 0px;">Modelling LiDAR as a rolling shutter sensor</h3>
       <div style="margin-bottom: 10px; background-color: #fff; padding: 10px; width: 400px;">
-        <video style="width: 100%; height: auto;" controls autoplay loop muted>
+        <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
           <source src="resources/new_resources/rolling_shutter_viz.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
@@ -247,29 +346,35 @@
     <!-- Top Row (2 Images) -->
     <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
         <div style="background-color: #fff; padding: 10px; width: 48%;">
-            <h3 style="margin-bottom: 10px;">Optimized Pose per LiDAR Sweep</h3>
+            <!-- <h3 style="margin-bottom: 10px;">Optimized Pose per LiDAR Sweep</h3> -->
+            <h3 class="title is-6" style="margin-bottom: 5px;">Optimized Pose per LiDAR Sweep</h3>
             <img src="resources/new_resources/c8ca7148-d574-4c06-8cc2-ba392b5d0e53_skewed.png" alt="Top Left Image" style="width: 100%; height: auto;">
         </div>
         <div style="background-color: #fff; padding: 10px; width: 48%;">
-            <h3 style="margin-bottom: 10px;">Optimized Pose per LiDAR Slice</h3>
+            <!-- <h3 style="margin-bottom: 10px;">Optimized Pose per LiDAR Slice</h3> -->
+            <h3 class="title is-6" style="margin-bottom: 5px;">Optimized Pose per LiDAR  Slice</h3>
+
             <img src="resources/new_resources/c8ca7148-d574-4c06-8cc2-ba392b5d0e53_ours.png" alt="Top Right Image" style="width: 100%; height: auto;">
         </div>
     </div>
 </div>
 </div>
+<div style="display: flex; justify-content: space-between;">
 <p class="dark-grey-text">Rolling Shutter is no longer a bug, but a feature that turns LiDAR from a noisy 10Hz sensor to an accurate <b>4000Hz</b> sensor!</p>
-
+</div>
 
 <br><br>
 
-<h2 style="text-align: center;">Extreme View Depth Rendering</h2>
+<!-- <h2 style="text-align: center;">Extreme View Depth Rendering</h2> -->
+<h2 class="title is-3">Extreme View Depth Rendering</h2>
 <div style="display: flex; justify-content: center; gap: 20px; align-items: flex-start; text-align: center;">
 
   <!-- First Column (Left) -->
   <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-      <h3 style="margin-bottom: 10px;">NeurAD Depth</h3>
+      <!-- <h3 style="margin-bottom: 10px;">NeurAD Depth</h3> -->
+      <h3 class="title is-5" style="margin-bottom: 0px;">NeurAD Depth</h3>
       <div style="background-color: #fff; padding: 10px; width: 400px;">
-        <video style="width: 100%; height: auto;" controls autoplay loop muted>
+        <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
           <source src="resources/new_resources/neurad_output.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
@@ -278,9 +383,11 @@
 
   <!-- Second Column (Center) -->
   <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-    <h3 style="margin-bottom: 10px;">NeurAD Depth (SMORE Poses)</h3>
+    <!-- <h3 style="margin-bottom: 10px;">NeurAD Depth (SMORE Poses)</h3> -->
+    <h3 class="title is-5" style="margin-bottom: 0px;">NeurAD Depth (SMORE Poses)</h3>
+
     <div style="background-color: #fff; padding: 10px; width: 400px;">
-      <video style="width: 100%; height: auto;" controls autoplay loop muted>
+      <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
         <source src="resources/new_resources/neurad_output_smor_poses.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -289,9 +396,11 @@
 
   <!-- Third Column (Right) -->
   <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-    <h3 style="margin-bottom: 10px;">SMORE Depth</h3>
+    <!-- <h3 style="margin-bottom: 10px;">SMORE Depth</h3> -->
+    <h3 class="title is-5" style="margin-bottom: 0px;">SMORE Depth (Ours)</h3>
+    
     <div style="background-color: #fff; padding: 10px; width: 400px;">
-      <video style="width: 100%; height: auto;" controls autoplay loop muted>
+      <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
         <source src="resources/new_resources/smor_output.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -309,11 +418,12 @@
 
 <br><br>
 
-<h1>Full Sequence Reconstructions</h1>
+<!-- <h1>Full Sequence Reconstructions</h1> -->
+<h2 class="title is-3">Full Sequence Reconstructions</h2>
 <div style="display: flex; justify-content: space-around; align-items: flex-start; text-align: center;">
   <!-- First Image -->
   <div style="background-color: #fff; padding: 10px; width: 33%;">
-    <video style="width: 100%; height: auto;" controls autoplay loop muted>
+    <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
       <source src="resources/new_resources/full_seq1.mp4" type="video/mp4">
       Your browser does not support the video tag.
   </video>
@@ -321,7 +431,7 @@
 
   <!-- Second Image -->
   <div style="background-color: #fff; padding: 10px; width: 33%; margin: 0 10px;">
-    <video style="width: 100%; height: auto;" controls autoplay loop muted>
+    <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
       <source src="resources/new_resources/full_seq2.mp4" type="video/mp4">
       Your browser does not support the video tag.
   </video>
@@ -329,64 +439,39 @@
 
   <!-- Third Image -->
   <div style="background-color: #fff; padding: 10px; width: 33%;">
-    <video style="width: 100%; height: auto;" controls autoplay loop muted>
+    <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
       <source src="resources/new_resources/full_seq3.mp4" type="video/mp4">
       Your browser does not support the video tag.
   </video>
   </div>
 </div>
+<!-- 
+<div style="background-color: #fff; padding: 10px; width: 33%; margin: 0 10px;">
+    <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
+      <source src="resources/new_resources/full_seq2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+  </div> -->
+
+  <!-- Third Image -->
+  <!-- <div style="background-color: #fff; padding: 10px; width: 33%;">
+    <video style="width: 100%; height: auto;" autoplay loop muted playsinline>
+      <source src="resources/new_resources/full_seq3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+  </div> -->
+</div>
 
 
 
+<!-- <div class="content has-text-centered">
+  <video class="video" width="100%" id="xyalias3" loop playsinline autoplay muted src="resources/new_resources/full_seq2.mp4" onplay="resizeAndPlay(this)" style="height: 0px;"></video>
+  <canvas height=0 class="videoMerge" id="xyalias3Merge"></canvas>
+</div>
+ -->
 
-  <!-- <h1>Object and Background Refinement</h1>
-  <div class="teaser">
-    <img style="width:100%;margin: 1vw 1vw 1vw 1vw" src="./resources/bg_refine.gif"/>
-    <img style="width:30%;margin: 0vw 0vw 1vw 1vw;" src="./resources/a0328b62fcaa46a093c7de5ae9b53ecf_refinement.mp4.gif"/><img style="width:30%;margin: 0vw 0vw 1vw 1vw;" src="./resources/dc762bf1bc694d3e8141bf592f9b1456_refinement.mp4.gif"/><img style="width:30%;margin: 0vw 0vw 1vw 1vw;" src="./resources/ca5b3ca5aea745ee8fe12b0f74d77f8e_refinement.mp4.gif"/>
-    <br>
-    <br>
-    <i>
-      Here, we show the refinement of individual objects over the course of our method's optimization. Both the background and dynamic objects are refined by alternating steps of 1) surface generation from  points aggregated into a common reference frame and 2) improving the relative poses of those sweeps by registering them to the extracted surface. Essentially, our method makes use of shape-consistency over time to improve both shape and motion estimates.
-    </i>
-  </div>
-  <h1>What is a LiDAR Sweep?</h1>
-    <div class="video-container-wide">
-        <iframe src="./resources/what-is-a-sweep.mp4" frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-    </div>
-    <br><br>
-    <i>
-      LiDAR returns are often grouped and processed in 360-degree sweeps, but
-most sensors have a continuous “shutter” as they rotate. Here, we visualize the difference between these two perspectives on handling LiDAR data. Left, the "instantaneous 360 shutter" view contrasted with (right) the true continuous capture of a spinning LiDAR. Our framework seamlessly models this continuous shutter for any combination of LiDAR sensors or scanning patterns and we find that accounting for these effects has a large impact on the quality of our reconstructions.
-    </i>
-    <br><br><hr><br><br>
 
-    
 
-    
-  <h1>Full Sequence Reconstruction</h1>
-    <div class="video-container">
-        <iframe src="./resources/scene-0103-bg-mesh-inpt-boxes-it[-1]intersection.mp4" frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-    </div>
-    <div class="video-container">
-        <iframe src="./resources/scene-0757-bg-mesh-inpt-boxes-it[-1]intersection_towards.mp4" frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-    </div>
-    <div class="video-container">
-        <iframe src="./resources/scene-1094-bg-mesh-inpt-boxes-it[-1]intersection.mp4" frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-    </div>
-    <br><br>
-    <i>
-      Our 4-D surface reconstructions of entire NuScenes sequences.
-    </i>
-    
-    <br><br><hr>
 
     <!---<h1>Acknowledgements</h1>
     <p>
@@ -398,9 +483,9 @@ most sensors have a continuous “shutter” as they rotate. Here, we visualize 
         <a href="https://github.com/jasonyzhang/webpage-template">here</a>.
     </p>--->
 
-    <br><br>
+    <!-- <br><br>
     <h1>Supplement</h1>
-    <p>Additional details can be found in the <a href="SMOR_3DV_Supp.pdf">supplemental material</a>.</p>
+    <p>Additional details can be found in the <a href="SMOR_3DV_Supp.pdf">supplemental material</a>.</p> -->
 </div>
 
 </body>

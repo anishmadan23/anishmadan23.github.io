@@ -736,14 +736,26 @@ var bulmaCarousel = function (_EventEmitter) {
 
   }, {
     key: 'next',
-    value: function next() {
-      if (!this.options.loop && !this.options.infinite && this.state.index + this.slidesToScroll > this.state.length - this.slidesToShow && !this.options.centerMode) {
-        this.state.next = this.state.index;
-      } else {
-        this.state.next = this.state.index + this.slidesToScroll;
-      }
-      this.show();
-    }
+    // value: function next() {
+    //   if (!this.options.loop && !this.options.infinite && this.state.index + this.slidesToScroll > this.state.length - this.slidesToShow && !this.options.centerMode) {
+    //     this.state.next = this.state.index;
+    //   } else {
+    //     this.state.next = this.state.index + this.slidesToScroll;
+    //   }
+    //   this.show();
+    // }
+	value: function next() {
+		if (!this.options.loop && !this.options.infinite && 
+			this.state.index + this.slidesToScroll > this.state.length - this.slidesToShow && 
+			!this.options.centerMode) {
+			// Prevent overflow when not looping or infinite
+			this.state.next = this.state.index;
+		} else {
+			// Handle looping or infinite configurations
+			this.state.next = (this.state.index + this.slidesToScroll) % this.state.length;
+		}
+		this.show();
+	}
   }, {
     key: 'previous',
     value: function previous() {

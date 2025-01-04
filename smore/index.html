@@ -442,7 +442,7 @@
     <div class="hero-body" style="padding: 0;">
       <div class="container is-max-desktop">
         <h2 class="title is-3" style="margin-top: 10px;">Full Sequence Reconstructions</h2>
-        <div id="fullseq" class="carousel" data-slides-to-scroll="3" data-slides-to-show="3">
+        <div id="fullseq" class="carousel" data-slides-to-scroll="2" data-slides-to-show="2">
           <div class="item">
             <video poster="" autoplay muted loop playsinline height="100%">
               <source src="./static/videos/video_recon/full_seq1.mp4" type="video/mp4">
@@ -487,8 +487,8 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-full-width is-centered">
           <h2 class="title is-3">Depth Rendering: Extreme View Synthesis</h2>
-          <div id="videoComparison">
-            <video id="videocompare" playsinline autoplay muted loop onplay="resizeAndPlay(this)" style="height: 0px">
+          <div id="videoComparison" style="display: flex; justify-content: center; align-items: center;">
+            <video id="videocompare" playsinline autoplay muted loop onplay="resizeAndPlay(this)" style="width: 100%; max-width: 800px; height: 0px">
               <source id="videosrc" src="" />
             </video>
             <canvas class="videoMerge" id="videocompareMerge"></canvas>

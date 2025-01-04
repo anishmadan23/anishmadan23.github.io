@@ -603,3 +603,10 @@ model-viewer {
 .video-button:hover {
   background-color: #1c1c1c; /* Hover effect matching active state */
 }
+
+
+#videocompare {
+  width: auto; /* Adjust width automatically */
+  height: 450px; /* Fixed height */
+  object-fit: cover; /* Ensures content scales nicely */
+}

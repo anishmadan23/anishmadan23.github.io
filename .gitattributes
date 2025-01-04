@@ -1,1 +1,10 @@
 smore/resources/new_resources filter=lfs diff=lfs merge=lfs -text
+../../static/videos filter=lfs diff=lfs merge=lfs -text
+smore/static/videos/depth_renderings filter=lfs diff=lfs merge=lfs -text
+smore/static/videos/depth_renderings/scene-0103 filter=lfs diff=lfs merge=lfs -text
+smore/static/videos/depth_renderings/scene-0247 filter=lfs diff=lfs merge=lfs -text
+smore/static/videos/depth_renderings/scene-0504 filter=lfs diff=lfs merge=lfs -text
+smore/static/videos/depth_renderings/scene-0757 filter=lfs diff=lfs merge=lfs -text
+smore/static/videos/depth_renderings/scene-1077 filter=lfs diff=lfs merge=lfs -text
+smore/static/videos/depth_renderings/scene-1094 filter=lfs diff=lfs merge=lfs -text
+smore/static/videos/depth_renderings/scene-0011 filter=lfs diff=lfs merge=lfs -text

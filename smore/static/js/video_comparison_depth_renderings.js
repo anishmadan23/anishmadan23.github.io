@@ -5,7 +5,7 @@ let currentVideoIndex = 1; // Starts at video 1
 const videoData = [
   { path: "../smore/static/videos/depth_renderings/scene-0011/scene0011.mp4", label: "scene-0011" },
   { path: "../smore/static/videos/depth_renderings/scene-0103/scene0103.mp4", label: "scene-0103" },
-  { path: "../smore/static/videos/depth_renderings/scene-0247/scene0247.mp4", label: "scene-0247" },
+  // { path: "../smore/static/videos/depth_renderings/scene-0247/scene0247.mp4", label: "scene-0247" },
   { path: "../smore/static/videos/depth_renderings/scene-0504/scene0504.mp4", label: "scene-0504" },
   { path: "../smore/static/videos/depth_renderings/scene-0757/scene0757.mp4", label: "scene-0757" },
   { path: "../smore/static/videos/depth_renderings/scene-1094/scene1094.mp4", label: "scene-1094" },

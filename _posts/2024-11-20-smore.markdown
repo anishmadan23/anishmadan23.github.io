@@ -8,4 +8,5 @@ author: Anish Madan
 authors: Nathaniel Chodosh*, <strong>Anish Madan*</strong>, Simon Lucey, Deva Ramanan
 venue: International Conference on 3D Vision (<strong>3DV</strong>), <strong>2025</strong>
 arxiv: https://arxiv.org/abs/2406.13896
+website: smore
 ---
